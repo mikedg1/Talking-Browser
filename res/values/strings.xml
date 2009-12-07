@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TalkingBrowser!</string>
+    <string name="app_name">Talking Browser</string>
+    <string name="splash_notes">Welcome to the talking browser.\n\nPlease be sure to install TTS when prompted or the speaking will not work.\n\nClick any text, links, sometimes even images to have this web browser speak to you. Press again to follow any links.\n\nIf this proves to be popular and successful in the competition, this will be turned into a fully featured web browser.\n<a href="mailto://adc2@mikedg.com">Contact me!</a> adc2@mikedg.com</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<AutoCompleteTextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@android:drawable/editbox_background"
+		android:lines="1" android:maxLines="1" android:singleLine="true"
+		android:completionThreshold="1" android:selectAllOnFocus="true"
+		android:hint="Enter URL" android:id="@+id/quicklauncher"
+		android:autoText="false" android:capitalize="none" />
+	<WebView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/webQuickView"
+		android:layout_below="@id/quicklauncher" android:visibility="invisible" />
+	<!--  android:visibility="gone" -->
+</RelativeLayout>
